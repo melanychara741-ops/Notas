@@ -31,10 +31,10 @@ public class Main {
         double notaBaja= notas[0];
         
         for(int i=0;i<cantidad;i++){
-        if(notaAlta>notas[i]){
+        if(notas[i]>notaAlta){
         notaAlta=notas[i];
         }
-        if(notaBaja<notas[i]){
+        if(notas[i]<notaBaja){
         notaBaja=notas[i];
         }
         
